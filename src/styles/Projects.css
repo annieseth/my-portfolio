@@ -1,0 +1,29 @@
+/* src/styles/Projects.css */
+.project-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.project-container h2 {
+    color: #FF6F91;
+    margin-bottom: 20px;
+}
+
+.project-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.github-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #FF6F91;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.github-link:hover {
+    background-color: #D45079;
+}

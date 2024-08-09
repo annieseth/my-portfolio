@@ -1,0 +1,75 @@
+/* src/styles/App.css */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #3D155F;
+}
+
+a {
+    text-decoration: none;
+    color: #FF6F91;
+}
+
+a:hover {
+    color: #D45079;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #FF6F91;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #D45079;
+}
+
+.profile-photo {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.emphasis {
+    color: #E0B0FF; /* Change the text color */
+    /* text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2); Add a shadow */
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+}
+
+.centered-item {
+    /* Additional styling */
+    text-align: center; /* Optional: If you want to center text inside the h2 */
+}
+
